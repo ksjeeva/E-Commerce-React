@@ -1,0 +1,38 @@
+.glass-bg{
+    background-image: url('../../Assets/bg1.avif');
+    height: 100vh;
+    margin-top: -1.5rem;
+    background-size: cover;
+    z-index: 0;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.819);
+    position: relative;
+    top: 5rem;
+    max-width: 1000px;
+    padding: 1rem;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+}
+.eye-icon {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .eye-icon .svg-inline--fa {
+    color: #6c757d;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      padding-top: 20%;
+    }
+  
+    .eye-icon .svg-inline--fa {
+      font-size: 0.875rem;
+    }
+  }
+  

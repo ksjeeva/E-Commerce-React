@@ -1,0 +1,78 @@
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: darkblue;
+}
+.pro-img{
+    height: 15rem;
+}
+.link-body{
+    text-decoration: none;
+    color: white;
+}
+.card{
+    height: 30rem;
+    box-shadow: 3px 3px 10px 1px grey;
+    cursor: pointer;
+    transition: .2s ease-out;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: lightpink;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: skyblue;
+}
+@media (max-width:768px){
+    .card{
+        height: fit-content;
+    }
+    .pro-img{
+        height: 15rem;
+    }
+}
+@media (max-width:320px){
+    .card{
+        height: fit-content;
+        width: 12rem;
+    }
+    .pro-img{
+        height: fit-content;
+    }
+    .p-cont{
+        font-size: 0.8rem;
+        align-items: center;
+    }
+    .p-name{
+        font-size: 0.8rem;
+    }
+    .adc-btn{
+        font-size: 0.8rem;
+        margin-top: -.9rem;
+        padding: 5px;
+    }
+    .p-price{
+        margin-top: -9px;
+    }
+    .container1{
+        padding-left: 4rem;
+    }
+    .container2{
+        padding-left: 4rem;
+    }
+    .container3{
+        padding-left: 4rem;
+    }
+}

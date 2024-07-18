@@ -1,0 +1,21 @@
+/* Default styling for desktop view */
+.slider-image {
+  width: 100%;
+  height: 365px;
+}
+
+/* Tablet view */
+@media (min-width: 320px) {
+  .slider-image{
+    width: 100%;
+    height: 165px;
+  }
+}
+
+/* Phone view */
+@media (min-width: 768px) {
+  .slider-image {
+    width: 100%;
+    height: 365px;
+  }
+}
